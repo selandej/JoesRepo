@@ -1,0 +1,18 @@
+.carousel .slide{
+	background-color: #000;
+	background-image:none !important;
+}
+
+.carousel-inner .active{
+	background-color: #000;
+	background-image:none !important;
+}
+
+.carousel .item .active{
+	background-color: #000;
+	background-image:none !important;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background-image:none !important;
+}
