@@ -1,3 +1,4 @@
+/*
 .carousel .slide{
 	background-color: #000;
 	background-image:none !important;
@@ -16,3 +17,20 @@
 .carousel-control.left, .carousel-control.right {
 	background-image:none !important;
 }
+*/
+
+.carousel-text1 {
+	color:white;
+	text-shadow: 1px 1px 5px black;
+}
+
+.carousel-text2 {
+	color:white;
+	text-shadow: 1px 1px 5px black;
+}
+
+.carousel-text3 {
+	color:white;
+	text-shadow: 1px 1px 5px black;
+}
+
