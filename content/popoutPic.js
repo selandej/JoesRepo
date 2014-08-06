@@ -1,16 +1,27 @@
-var isClicked = "false";
+var flag = true;
 
-function change(img)
-	{
-		if(isClicked == "false")
+$(document).ready(function () 
+{
+	$('.img-circle').click(function(e)
 		{
-			img.size=600;
-			isClicked = "true";
-
-		}
-		else
-		{
-			img.size=140;
-			isClicked = "false";
-		}
-	}
+    	if(flag)
+        	$(e.target).animate(
+        		{
+        			width: [ '340px' , "linear" ],
+        			height: [ '340px' , "linear" ]
+        		}, 800, function()
+        			{
+            		//animation complete.
+        			});    					
+    	else
+        	$(e.target).animate(
+        		{
+        			width: [ '140px' , "linear" ],
+        			height: [ '140px' , "linear" ]
+        		}, 800, function()
+    				{
+    				//animation complete.
+					});
+    	flag=!flag;	
+    });
+});
